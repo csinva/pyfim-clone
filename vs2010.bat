@@ -1,0 +1,2 @@
+REM for Microsoft Visual Studio 2010:
+SET VS90COMNTOOLS=%VS100COMNTOOLS%
