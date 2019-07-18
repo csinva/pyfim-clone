@@ -5,6 +5,6 @@ Clone of pyfim making it installable as a dependency. Copied from http://www.bor
 # installation
 `pip install git+https://github.com/csinva/pyfim-clone`
 
-Now we can import pyfim:
+Now we can import pyfim (from python):
 
-`https://github.com/csinva/pyfim-clone`
+`from fim import fpgrowth`
