@@ -16,10 +16,7 @@ If you would like to include pyfim as a dependency for your project, simply add 
 setup(
     ...
     install_requires=[
-        'fim',
-    ],
-    dependency_links=[
-        'https://github.com/csinva/pyfim-clone/tarball/master#egg=fim-6.28'
+        'fim @ git+https://github.com/csinva/pyfim-clone',              
     ],
     ...
 )
