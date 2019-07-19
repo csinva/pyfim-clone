@@ -21,3 +21,17 @@ setup(
     ...
 )
 ```
+
+Alternatively, you can add it via these lines:
+```python    
+setup(
+    ...
+    install_requires=[
+        'fim',
+    ],
+    dependency_links=[
+        'https://github.com/csinva/pyfim-clone/tarball/master#egg=fim-6.28'
+    ],
+    ...
+)
+```
