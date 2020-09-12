@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-from distutils.core import setup, Extension
+# from distutils.core import Extension
+from setuptools import setup, Extension
 from os             import remove
 
 dirs   =['util/src',
@@ -107,8 +108,8 @@ with open('README', 'wt') as out:
     out.write('  estpsp\n')
     out.write('for explanations about their parameters.\n')
 
-setup(name='fim',
-      version='6.28 (2017.03.24)',
+setup(name='fim-python',
+      version='6.28',
       description='Frequent Item Set Mining and Association Rule Induction for Python',
       long_description='Frequent Item Set Mining and Association Rule Induction for Python',
       author='Christian Borgelt',
